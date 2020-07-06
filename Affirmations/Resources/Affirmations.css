@@ -1,0 +1,128 @@
+html {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(62, 129, 189);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.Heading {
+    padding-top: 6rem;
+    width: 100%;
+    text-align: center;
+}
+
+.Phrase_container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60%;
+    height: 25rem;
+    width: 50%;
+    margin-left: 25%;
+}
+
+#Daily_Phrase {
+    font-family:'Indie Flower', cursive;
+    font-size: 4rem;
+    padding: 5rem;
+    text-align: center; 
+    
+}   
+.Tips_scroll {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+.Tips_scroll a {
+    text-decoration: underline;
+    cursor: pointer;
+   
+}
+
+.Tips_scroll a:hover {
+    transition: ease;
+    transition-duration: 0.1s;
+    color: white;
+}
+
+.Tips_Container {
+    margin-top: 7rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Tips {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.Image {
+    width: 100%;
+    border-radius: 15%;
+}
+
+@media only screen and (max-width: 835px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .Heading {
+        padding-top: 3rem;
+    }
+    .Phrase_container {
+        background-color: white;
+        border-radius: 80%;
+        height: rem;
+        position: relative;
+        
+    }
+    #Daily_Phrase {
+        font-family:'Indie Flower', cursive;
+        font-size: 2.5rem;
+        padding: 2rem;
+        text-align: center; 
+        
+    }   
+    .Tips_Container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20rem;
+    }
+    .Tips {
+        margin: 10px;
+        padding: 10px;
+        width: 80%;
+        border-radius: 15%;
+    }
+    .Image {
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width: 322px) {
+    .Phrase_container {
+        background-color: white;
+        border-radius: 60%;
+        height: 19rem;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .Heading {
+        padding-top: 0.2rem;
+    }
+}
